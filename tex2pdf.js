@@ -5,7 +5,7 @@ const myArgs=process.argv.slice(2)
 //console.log('myArgs: ',myArgs)
 if(myArgs.length==0){
 	console.log('Error: INPUTFILE is mising')
-	console.log('Usage: render INPUTFILE [OUTPUTFILE]')
+	console.log('Usage: tex2pdf INPUTFILE [OUTPUTFILE]')
 	process.exit()
 }
 if(!fs.existsSync(myArgs[0])){
